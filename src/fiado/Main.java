@@ -8,9 +8,13 @@ public class Main {
 								
 		Scanner scanner = new Scanner(System.in);
 		System.out.print("Informe o Nome do Cliente: ");
-
 		String nome = scanner.nextLine();
 		consumidor consumidor = new consumidor(nome);
+		
+		System.out.print("Informe o telefone do Cliente: ");
+		String fone = scanner.nextLine();
+		consumidor consumidor = new consumidor(fone);
+				
 		
 		System.out.print("Informe o Valor da compra: ");
 		int fiado = Integer.valueOf(scanner.nextLine());
