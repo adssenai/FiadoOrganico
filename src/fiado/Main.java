@@ -13,7 +13,7 @@ public class Main {
 		
 		System.out.print("Informe o telefone do Cliente: ");
 		String fone = scanner.nextLine();
-		consumidor consumidor = new consumidor(fone);
+		consumidor consumidorFone = new consumidor(fone);
 				
 		
 		System.out.print("Informe o Valor da compra: ");

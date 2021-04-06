@@ -3,12 +3,10 @@ package fiado;
 public class consumidor {
 	
 	private String nome;
-	private String fone;
 	private int[] fiados;
 	private int posicao = 0;
 	
-	public consumidor(String nome, String fone) {
-		this.fone = fone;
+	public consumidor(String nome) {
 		this.nome = nome;
 		this.fiados = new int[10];		
 	}
@@ -23,6 +21,10 @@ public class consumidor {
 	
 	//_________________________________________
 	
+	public consumidorFone(String fone) {
+		this.fone = fone;
+		this.fone = new int[10];		
+	}
 	
 	public String getFone() {
 		return this.fone;
